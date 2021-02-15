@@ -1,0 +1,86 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.jumbotron {
+  position: relative;
+  text-align: center;
+}
+.jumbotron img {
+  opacity: 0.8;
+  transform: translateY(-10%);
+}
+.jumbotron-text {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+section {
+  position: relative;
+}
+
+section h5 {
+  position: absolute;
+}
+
+.carousel-header {
+  z-index: 1;
+}
+
+footer {
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+h5 {
+  opacity: 0.9;
+}
+
+@media (min-width: 768px) {
+  .collapse {
+    width: 25%;
+  }
+  .modal-body {
+    display: flex;
+    justify-content: space-around;
+  }
+  .jumbotron {
+    overflow: hidden;
+    height: 60vh;
+  }
+  .jumbotron img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -65%);
+  }
+  .jumbotron-text {
+    width: 40%;
+    left: 25%;
+  }
+  .categories {
+    justify-content: space-between;
+    margin-bottom: 3em;
+  }
+  .categories section {
+    max-width: 49%;
+  }
+  .carousel-item {
+    height: 50vh;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -25%);
+  }
+  section.newsletter {
+    max-width: 40%;
+  }
+}
