@@ -7,6 +7,8 @@ Coded a responsive design layout using Bootstrap, HTML and SCSS.
 
 It includes a mobile first approach, modal page and image slider. It also validates the forms using Regular Expressions.
 
+[Click here](https://charliecastleweb.github.io/M7-Exercici-validacions/) to see it live.
+
 # Technologies
 
 This Project was created using:
